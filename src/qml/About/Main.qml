@@ -45,8 +45,8 @@ ItemPage {
 
             Image {
                 Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
-                width: 251
-                height: 194
+                width: 200
+                height: 95
                 sourceSize: Qt.size(width, height)
                 source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark/" : "light/") + "logo.svg"
             }
