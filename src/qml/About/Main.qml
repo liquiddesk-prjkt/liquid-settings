@@ -48,7 +48,7 @@ ItemPage {
                 width: 251
                 height: 194
                 sourceSize: Qt.size(width, height)
-                source: "qrc:/images/logo.svg"
+                source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark/" : "light/") + "logo.svg"
             }
 
             Item {
