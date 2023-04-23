@@ -57,7 +57,7 @@ ItemPage {
 
             RoundedItem {
                 StandardItem {
-                    key: qsTr("System Version")
+                    key: qsTr("LiquidOS Version")
                     value: about.version
                 }
 
