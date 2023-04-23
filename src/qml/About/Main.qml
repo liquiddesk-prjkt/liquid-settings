@@ -45,41 +45,10 @@ ItemPage {
 
             Image {
                 Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
-                width: 140
-                height: 72
+                width: 251
+                height: 194
                 sourceSize: Qt.size(width, height)
                 source: "qrc:/images/logo.svg"
-            }
-
-            Item {
-                height: FishUI.Units.smallSpacing
-            }
-
-            Label {
-                Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
-                text: "<b>Openfish</b>"
-                visible: !about.isCutefishOS
-                font.pointSize: 22
-                color: "#3385FF"
-                leftPadding: FishUI.Units.largeSpacing * 2
-                rightPadding: FishUI.Units.largeSpacing * 2
-            }
-
-            Image {
-                Layout.preferredWidth: 167
-                Layout.preferredHeight: 26
-                sourceSize: Qt.size(500, 76)
-                source: "qrc:/images/logo.png"
-                Layout.alignment: Qt.AlignHCenter
-                visible: about.isCutefishOS
-                asynchronous: true
-            }
-
-            Label {
-                text: qsTr("Built on %1").arg(about.prettyProductName)
-                visible: !about.isCutefishOS
-                Layout.alignment: Qt.AlignTop | Qt.AlignHCenter
-                color: FishUI.Theme.disabledTextColor
             }
 
             Item {
