@@ -90,7 +90,7 @@ bool About::isCutefishOS()
 
 QString About::version()
 {
-    QSettings settings("/etc/cutefish", QSettings::IniFormat);
+    QSettings settings("/etc/liquidos", QSettings::IniFormat);
     return settings.value("Version").toString();
 }
 
